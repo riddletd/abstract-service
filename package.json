@@ -1,0 +1,27 @@
+{
+  "name": "abstract-service",
+  "version": "1.0.0",
+  "description": "An generic service for broadcasting data to any component.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Not implemented yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riddletd/abstract-service.git"
+  },
+  "author": "Trevor Riddle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riddletd/abstract-service/issues"
+  },
+  "homepage": "https://github.com/riddletd/abstract-service#readme",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.2"
+  }
+}
